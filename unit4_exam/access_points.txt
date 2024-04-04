@@ -1,0 +1,22 @@
+Problem 1:
+If you're unable to figure out how to read the file called grades.csv, replace text = '' on line 10 with this code:
+
+text = '''osis,exam1,exam2,exam3,exam4
+123,95,100,97,93
+207,95,75,88,90
+307,60,76,68,75'''
+
+Problem 2:
+If you're unable to figure out how to create a 2d list based on the string s in two_d_list_maker, replace return [] on line 24 with this code:
+
+return [['osis', 'exam1', 'exam2', 'exam3', 'exam4'],['123', '95', '100', '97', '93'],['207', '95', '75', '88', '90'],['307', '60', '76', '68', '75']]
+
+Problem 3:
+If you're unable to make a dictionary based on the 2d list based in dict_maker, replace the return {} on line 52 with this code:
+
+return {'123': ['95', '100', '97', '93'], '207': ['95', '75', '88', '90'], '307': ['60', '76', '68', '75']}
+
+Problem 4:
+If you're unable to make a dictionary with the average scores, replace return {} on line 78 with this code:
+
+return {'123': 96.25, '207': 87.0, '307': 69.75}

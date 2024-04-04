@@ -1,0 +1,9 @@
+#lang Racket
+;; (all-even-digits? n) -> boolea
+;   n : integer
+;  Assume n is nonnegative
+(define pow
+  (lambda (number power)
+    (if (= power 0)
+        number
+        (pow (* number number) (- power 1)))))

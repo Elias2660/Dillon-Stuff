@@ -1,0 +1,13 @@
+#lang Racket
+
+(define number_of_digits
+  (lambda (number)
+    (if (<= number 10)
+        1
+        (+ 1 (number_of_digits (/ (- number (remainder number 10)) 10))))))
+
+
+(define max_digits
+  (lambda (number)
+    (cond ((=< (/ number 10) 0) number
+          ((> (remainder number (- (number_of_digits number) 1)) (remainder number (- (number_of_digits number) )po

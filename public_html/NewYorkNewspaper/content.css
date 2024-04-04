@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway&display=swap');
+.page {
+  width: auto;
+  height: auto;
+  font-family: 'Open Sans', sans-serif;
+    font-size: 70px;
+}
+
+
+body{
+  text-align: center;
+  background: url("26313.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color:darkgrey;
+
+  background-blend-mode: multiply;
+  overflow-x: auto;
+  overflow-y:auto;
+}
+
+.header {
+
+
+
+}
+
+#article_title {
+  font-size:220px;
+  font-family: 'Raleway', serif;
+  /* margin-top: -50px;
+  margin-bottom: -5px; */
+  color: white;
+  letter-spacing: 0.1em;
+
+}
+
+#topic {
+  font-size: 60px;
+  font-family: "Raleway", serif;
+  color: red;
+  font-weight: bold;
+  padding: 5px;
+  margin-top: +10px;
+  margin-bottom: +30px;
+  letter-spacing: 0.5em;
+}
+
+#topic-title {
+  width: 25%;
+  size :80px;
+  height: 10px;
+  margin-top:-5px;
+  background: white;
+}
+
+.content {
+  padding: 10px;
+  color: white;
+}
+
+#intro {
+  /* text-align: right; */
+  font-size:75px;
+  padding: 20px;
+  letter-spacing: 0.1em;
+ 
+  color: white;
+  /* font-style: normal; */
+  font-family: "Open Sans";
+  
+}
+
+
+hr {
+  width:50%;
+}
+
+.Expert {
+
+  font-family: "Raleway";
+  color:lightcoral;
+  font-size:30px;
+  margin-bottom: -30px;
+  font-style: bold;
+  
+}
+
+
+.Interviewer {
+  font-family: "Raleway";
+  color: lightblue;
+  margin-bottom: -30px;
+  font-size: 30px;
+  font-style: bold;
+
+}
+
+
+.question{
+  font-style: bold;
+
+}
+
+.answer{
+  padding: 5px;
+
+}
+
+#block_quote {
+  margin-left: 40px;
+  margin-top: -30px;
+  margin-bottom: -30px;
+  margin-right: 50px;
+  text-align: center;
+  border-left: 10px solid darkslategray;
+  padding: 5px;
+  font-size: 70px;
+
+/*
+  background-color:lightblue;
+  background: url("new_york_evening.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-blend-mode: multiply;
+  overflow-x: auto;
+  overflow-y:auto; */
+
+}
+

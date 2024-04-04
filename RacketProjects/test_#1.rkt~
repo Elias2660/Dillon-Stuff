@@ -1,0 +1,42 @@
+#lang Racket
+;break the equaiton down to three parts
+
+(define first
+  (lambda (l w) (* l w))) 
+
+;break down the two fat square roots to 4 parts
+
+(define second_root
+  (lambda (h w)
+    (sqrt (+ (expt (/ w 2) 2) (expt h 2)))))
+
+
+(define second
+  (lambda (l w h) (* l (second_root h w))))
+
+(define third_root
+  (lambda (l h)
+    (sqrt (+ (expt (/ l 2) 2) (expt h 2)))))
+
+(define third
+  (lambda (l w h)
+    (* w (third_root l h))))
+
+;put it all down together
+
+(define rrp
+  (lambda (l w h)
+    (+ (first l w)
+       (second l w h)
+       (third l w h))))
+
+;test cases
+
+(rrp 3 4 6) 
+;> 55.712299....
+
+(rrp 5 3 7)
+;> 73.09
+
+(rrp 7 9 1)
+;> 128.03

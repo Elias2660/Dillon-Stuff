@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;0,800;1,400;1,800&display=swap');
+
+
+.cover_page {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(cover_image.png) ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-weight:bold
+}
+
+#cover_title {
+    font-size: 15vw;
+    margin-left: 2.5vw;
+    margin-top: 0;
+}
+
+#cover_text {
+    font-size: 5vw;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 4vh;
+    margin-right: 2.5vw;
+}
+
+
+.introduction {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'EB Garamond', serif;
+    color:white;
+    background-color: black;
+}
+
+.title_text_flexbox {
+    display:flex;
+}
+
+.title_text {
+    flex:1;
+    padding:1vw;
+
+}
+
+#intro_title {
+    width:fit-content;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 6.5vw;
+    height: 30vh;
+    padding: 1vw;
+
+}
+
+#intro_text {
+    width: auto;
+    height: auto;
+    background-color:white;
+    color: black; 
+    font-size: 3.5vw; 
+    padding:0.5vw;
+    display:flex;
+    margin: 5px;
+
+}
+
+body {
+    margin: 0;
+}
+
+.links{
+    background-color: lightblue;
+    font-family: 'EB Garamond', serif;
+
+}
+
+#additional_links_title {
+    height:auto;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+
+}
+
+.actual_links {
+    padding: 2vh;
+    text-align: center;
+
+}
+
+a {
+    text-decoration: none;
+    color: darkslategray;
+
+}
